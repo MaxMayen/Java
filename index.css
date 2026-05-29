@@ -1,0 +1,72 @@
+/* 1. Ajustes Generales del Cuerpo */
+body {
+    background-color: #000000; /* Fondo Negro */
+    color: #ffffff; /* Texto Blanco */
+    font-family: 'Courier New', Courier, monospace; /* Letra de Máquina de Escribir */
+    margin: 20px;
+    line-height: 1.6;
+}
+
+/* 2. Títulos Principales (Dorado) */
+h1 {
+    color: #FFD700; 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #FFD700;
+    font-size: 1.4em;
+    border-left: 4px solid #FFD700;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+/* 3. Estilo de los Párrafos (Glosario) */
+p {
+    margin: 8px 0;
+    font-size: 0.95em;
+    color: #cccccc; /* Gris claro para que no canse la vista */
+}
+
+/* 4. Línea Horizontal */
+hr {
+    border: 0;
+    border-top: 1px solid #444;
+    margin: 20px 0;
+}
+
+/* 5. Imagen Central */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+/* 6. EL BOTÓN DE REGRESAR (Ajustado a tu estilo) */
+.contenedor-regresar {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.btn-retro {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #FFD700 !important;
+    text-decoration: none !important;
+    border: 1px solid #FFD700;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.btn-retro:hover {
+    background-color: #FFD700;
+    color: #000000 !important;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
