@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apuntes</title>
     <style>
-
+ 
         *, *::before, *::after {
             box-sizing: border-box;
         }
@@ -22,7 +22,7 @@
             line-height: 1.6;
         }
 
-                                              /* MI NOVIA DICE QUE SON 16 COLORES Y YO SOLO VEO 3 .-. */
+                                                       /* MI NOVIA DICE QUE SON 16 COLORES Y YO SOLO VEO 3 .-. */
 
         h1 {
             color: #ffe4c4; 
@@ -74,6 +74,37 @@
             margin: 20px 0;
         }
 
+        .contenedor-regresar {
+            margin-top: 60px;
+            margin-bottom: 40px;
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .btn-retro {
+            display: inline-block;
+            background-color: #696969; 
+            color: #ffffff !important;
+            text-decoration: none !important;
+            padding: 15px 30px;
+            border: 1px solid #ffffff;
+            border-radius: 4px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            white-space: nowrap;
+            text-align: center;
+        }
+
+        .btn-retro:hover {
+            background-color: #ffffff;
+            color: #000000 !important;
+            border-color: #ffffff;
+        }
+
         @media (max-width: 600px) {
             body {
                 padding: 20px 15px; 
@@ -94,10 +125,24 @@
                 font-size: 0.95rem;
                 padding-left: 15px; 
             }
+
+            .contenedor-regresar {
+                margin-top: 40px;
+                justify-content: center; 
+            }
+
+            .btn-retro {
+                width: 100%; 
+                padding: 12px 20px;
+            }
         }
     </style>
 </head>
 <body>
 
-    </body>
+    <div class="contenedor-regresar">
+        <a href="index.html" class="btn-retro">← VOLVER AL MENÚ</a>
+    </div>
+
+</body>
 </html>
